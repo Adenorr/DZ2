@@ -387,8 +387,7 @@ import razdel
 #    return record
 
 
-#bot = telebot.TeleBot('6081910771:AAGjwKiSrrlTwmYNQKijye2GqUb_GrFuPqI')
-bot = telebot.TeleBot('6272218401:AAH15dvLYeZYPVXN9Uw9oaH7W5zOUuA32Yc')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=['start'])
 def start(message):
